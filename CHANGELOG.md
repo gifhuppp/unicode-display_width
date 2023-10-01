@@ -1,5 +1,27 @@
 # CHANGELOG
 
+## 2.5.0
+
+- Unicode 15.1
+
+## 2.4.2
+
+More performance improvements:
+
+- Optimize lookup of first 4096 codepoints
+- Avoid overwrite lookup if no overwrites are set
+
+## 2.4.1
+
+- Improve general performance!
+- Further improve performance for ASCII strings
+
+*You should really upgrade - it's much faster now!*
+
+## 2.4.0
+- Improve performance for ASCII-only strings, by @fatkodima
+- Require Ruby 2.4
+
 ## 2.3.0
 
 - Unicode 15.0
